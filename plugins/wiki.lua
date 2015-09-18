@@ -3,14 +3,14 @@ local socket = require "socket"
 local JSON = require "cjson"
 
 local wikiusage = {
-  "!wiki [text]: Read extract from default Wikipedia (EN)",
+  "!wiki [text]: Read extract from default Wikipedia (FA)",
   "!wiki(lang) [text]: Read extract from 'lang' Wikipedia. Example: !wikies hola",
-  "!wiki search [text]: Search articles on default Wikipedia (EN)",
+  "!wiki search [text]: Search articles on default Wikipedia (FA)",
   "!wiki(lang) search [text]: Search articles on 'lang' Wikipedia. Example: !wikies search hola",
 }
 
 local Wikipedia = {
-  -- http://meta.wikimedia.org/wiki/List_of_Wikipedias
+  -- https://meta.wikimedia.org/w/index.php?title=List_of_Wikipedias/fa&uselang=fa
   wiki_server = "https://%s.wikipedia.org",
   wiki_path = "/w/api.php",
   wiki_load_params = {
