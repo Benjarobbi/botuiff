@@ -205,6 +205,7 @@ function create_config( )
     enabled_plugins = {
       "addgp",
       "echo",
+      "webshot",
       "get",
       "google",
       "groupmanager",
