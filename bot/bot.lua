@@ -204,6 +204,7 @@ function create_config( )
   config = {
     enabled_plugins = {
       "addgp",
+      "axtx",
       "echo",
       "get",
       "google",
@@ -218,7 +219,6 @@ function create_config( )
       "channels",
       "set",
       "stats",
-      "teax",
       "time",
       "version",
       "weather",
