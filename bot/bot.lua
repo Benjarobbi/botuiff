@@ -223,6 +223,8 @@ function create_config( )
       "version",
       "weather",
       "webshot",
+      "wiki",
+      تست
       "youtube",
       "media_handler",
       "moderation"},
