@@ -224,7 +224,6 @@ function create_config( )
       "weather",
       "webshot",
       "wiki",
-      تست
       "youtube",
       "media_handler",
       "moderation"},
