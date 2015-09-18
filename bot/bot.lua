@@ -203,8 +203,6 @@ function create_config( )
   -- A simple config with basic plugins and ourselves as privileged user
   config = {
     enabled_plugins = {
-      "teax",
-      "webshot",
       "addgp",
       "echo",
       "get",
@@ -220,9 +218,11 @@ function create_config( )
       "channels",
       "set",
       "stats",
+      "teax",
       "time",
       "version",
       "weather",
+      "webshot",
       "youtube",
       "media_handler",
       "moderation"},
