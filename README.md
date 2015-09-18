@@ -15,13 +15,13 @@ sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-d
 ```bash
 # After those dependencies, lets install the bot
 cd $HOME
-git clone https://github.com/uziins/uzzbot.git
-cd uzzbot
+git clone https://github.com/amirsad2/botuiff.git
+cd telegarm
 ./launch.sh install
 ./launch.sh # Will ask you for a phone number & confirmation code.
 ```
 
-Enable more [`plugins`](https://github.com/uziins/uzzbot/tree/master/plugins)
+Enable more [`plugins`](https://github.com/amirsad2/botuiff/tree/master/plugins)
 -------------
 See the plugins list with `!plugins` command.
 
@@ -36,11 +36,11 @@ Run it as a daemon
 ------------
 If your Linux/Unix comes with [upstart](http://upstart.ubuntu.com/) you can run the bot by this way
 ```bash
-$ sed -i "s/yourusername/$(whoami)/g" etc/uzzbot.conf
-$ sed -i "s_telegrambotpath_$(pwd)_g" etc/uzzbot.conf
-$ sudo cp etc/uzzbot.conf /etc/init/
-$ sudo start uzzbot # To start it
-$ sudo stop uzzbot # To stop it
+$ sed -i "s/yourusername/$(whoami)/g" etc/telegarm.conf
+$ sed -i "s_telegrambotpath_$(pwd)_g" etc/telegarm.conf
+$ sudo cp etc/telegarm.conf /etc/init/
+$ sudo start telegarm # To start it
+$ sudo stop telegarm # To stop it
 ```
 
 
