@@ -1,4 +1,4 @@
-uzzbot (telegram-bot)
+botuiff (telegram-bot)
 ============
 
 [![Donate button](https://img.shields.io/badge/nepal-donate-yellow.svg)](http://www.nrcs.org/donate-nrcs "Donate to Nepal Red Cross Society")
@@ -16,7 +16,7 @@ sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-d
 # After those dependencies, lets install the bot
 cd $HOME
 git clone https://github.com/amirsad2/botuiff.git
-cd telegarm
+cd botuiff
 ./launch.sh install
 ./launch.sh # Will ask you for a phone number & confirmation code.
 ```
@@ -36,11 +36,11 @@ Run it as a daemon
 ------------
 If your Linux/Unix comes with [upstart](http://upstart.ubuntu.com/) you can run the bot by this way
 ```bash
-$ sed -i "s/yourusername/$(whoami)/g" etc/telegarm.conf
-$ sed -i "s_telegrambotpath_$(pwd)_g" etc/telegarm.conf
-$ sudo cp etc/telegarm.conf /etc/init/
-$ sudo start telegarm # To start it
-$ sudo stop telegarm # To stop it
+$ sed -i "s/yourusername/$(whoami)/g" etc/botuiff.conf
+$ sed -i "s_telegrambotpath_$(pwd)_g" etc/botuiff.conf
+$ sudo cp etc/botuiff.conf /etc/init/
+$ sudo start botuiff # To start it
+$ sudo stop botuiff # To stop it
 ```
 
 
