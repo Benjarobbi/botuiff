@@ -225,7 +225,7 @@ function create_config( )
       "webshot",
       "wiki",
       "youtube",
-      "media_handler",
+      "banhammer",
       "moderation"},
     sudo_users = {our_id},
     disabled_channels = {},
