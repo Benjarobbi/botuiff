@@ -71,6 +71,7 @@ local function telegram_help()
   text = text..'\n'..'There are '..i..' plugins enabled.'
   text = text..'\n'..'Write "!help [plugin name]" or "!help [plugin number]" for more info.'
   text = text..'\n'..'Or "!help all" to show all info.'
+  text = text..'\n'..'ساختهـ شدهـ توسط: @AmIr_PaYdAaR'
   return text
 end
  
