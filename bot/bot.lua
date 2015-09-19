@@ -204,7 +204,7 @@ function create_config( )
   config = {
     enabled_plugins = {
       "addgp",
-      "axtx",
+      "tex",
       "echo",
       "get",
       "google",
