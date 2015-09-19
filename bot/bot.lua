@@ -205,7 +205,7 @@ function create_config( )
     enabled_plugins = {
       "addgp",
       "tex",
-      "echo",
+      "calculator",
       "get",
       "google",
       "groupmanager",
