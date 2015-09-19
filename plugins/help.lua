@@ -23,7 +23,7 @@ local function has_usage_data(dict)
 end
  
 -- Get commands for that plugin
-local function plugin_help(name,number)
+local function plugin_help(name,number,description)
   local plugin = ""
   if number then
     local i = 0
@@ -43,9 +43,9 @@ local function plugin_help(name,number)
   end
  
     local text = ""
-    if (type(plugin.description) == "table") then
+    if (type(plugin.usage) == "table") then
       for ku,usage in pairs(plugin.usage) do
-        text = text..description..'\n'
+        text = text..usage..'\n'
       end
       text = text..'======================\n'
     elseif has_usage_data(plugin) then -- Is not empty
