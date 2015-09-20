@@ -1,4 +1,4 @@
-
+do
 
 local function run(msg, matches)
   local text = "!addgp",
