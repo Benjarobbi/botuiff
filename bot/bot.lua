@@ -216,7 +216,7 @@ function create_config( )
       "location",
       "media",
       "plugins",
-      "channels",
+      "helpp",
       "set",
       "stats",
       "time",
