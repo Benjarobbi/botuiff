@@ -65,7 +65,7 @@ local function telegram_help()
       name = nil
     else
     i = i + 1
-    text = text..i..'. '..name..'. '..usage..'\n'
+    text = text..i..'. '..name..'\n'
     end
   end
   text = text..'\n'..''..i..'پلاگینـ برایـ شـما فعالـ گردیــد'
