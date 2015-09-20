@@ -1,6 +1,6 @@
 
 local function run(msg, matches)
-  local text = "[[This is help text, you can edit this with yours]]"
+  local text = "description"
   return text
 end
 
