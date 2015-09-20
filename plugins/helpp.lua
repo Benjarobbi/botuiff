@@ -1,8 +1,7 @@
 do
 
 local function run(msg, matches)
-  local text = "!addgp",
-  "برایـ اضافه کردنـ به گروهـ",
+  local text = "!addgp /n برایـ اضافه کردنـ به گروهـ",
   return text
 end
 
