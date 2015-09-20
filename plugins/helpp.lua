@@ -1,13 +1,8 @@
 
+
 local function run(msg, matches)
   local text = "!addgp",
-  "برایـ اضافهـ کردنـ بهـ گروهـ",
-  
-  
-  
-  
-  
-  "
+  "برایـ اضافه کردنـ به گروهـ",
   return text
 end
 
